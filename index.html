@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+		/>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+		<title>SyntaxNotes</title>
+		<link rel="stylesheet" href="./src/styles/main.css" />
+	</head>
+	<body>
+		<!-- Explorer container -->
+	<div class="explorer-container">
+  <div class="folder" id="Folder">Documents
+    <div class="folder-items">
+      <div class="note-in-the-folder" id="NoteInTheFolder">Note1.txt</div>
+    </div>
+  </div>
+</div>
+		<!-- All Notes container -->
+		<div class="all-notes-container" id="allNotes">
+			<div class="all-notes-header">
+				<h1>All Notes</h1>
+				<div class="search-wrapper">
+					<i class="fas fa-search search-icon"></i>
+					<input
+						class="search"
+						type="text"
+						id="search"
+						placeholder="Search notes..."
+					/>
+				</div>
+			</div>
+			<!-- Your notes will go here -->
+			<div class="card-notes card-notes-active">
+					<h1 class="name-note">Lorem ipsum dolor sit amet</h1>
+					<p class="text-note">Suspendisse ultricies quis purus non mattis. Aliquam vestibulum</p>
+			</div>
+						<div class="card-notes">
+					<h1 class="name-note">Cras et nulla mollis</h1>
+					<p class="text-note">condimentum velit id, gravida libero. Aliquam</p>
+			</div>
+		</div>
+		<!-- Note window -->
+		<div class="note-window-container" id="noteWindow">
+			<div class="note-window-header">
+        <h1 class="headline">Lorem ipsum dolor sit amet</h1>
+		</div>
+    <div class="toolbar">
+        <button class="tool-button" title="Жирный текст">
+        <i class="fas fa-bold"></i>
+        </button>
+				</div	>
+				<div class="content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse 
+						ultricies quis purus non mattis. Aliquam vestibulum nibh ut metus luctus 
+						gravida. Proin nunc diam, venenatis efficitur scelerisque sit amet, 
+						tincidunt non ligula. Sed dictum odio a placerat viverra. Phasellus 
+						aliquam ligula ac ipsum dapibus, quis tempus felis efficitur. Cras 
+						mollis, augue vel sollicitudin molestie, enim justo viverra orci, 
+						eu fringilla mauris justo non urna. Integer in dolor vulputate, 
+						ultricies ante id, tempor velit. Nullam consectetur, diam et accumsan 
+						euismod, metus odio scelerisque sem, et commodo ligula nibh et mi. 
+						Vivamus purus felis, vulputate eu pretium consectetur, pharetra ac velit. 
+						Etiam tincidunt nunc id augue finibus facilisis vel in lorem. Vivamus elementum, 
+						ligula non posuere tristique, dolor tellus imperdiet nisi, ut ultrices odio 
+						lorem eget odio. Phasellus rutrum turpis vel elit dignissim pellentesque. 
+						Etiam rhoncus, tortor quis cursus dictum, risus ante congue erat, nec 
+						fringilla nunc enim id felis.</p>
+				</div>
+		<script src="./src/notes.js"></script>
+	</body>
+</html>

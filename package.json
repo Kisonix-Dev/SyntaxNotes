@@ -1,0 +1,23 @@
+{
+	"name": "test",
+	"version": "1.0.0",
+	"main": "main.js",
+	"scripts": {
+		"start": "electron .",
+		"test": "electron . --watch",
+		"build": "electron-builder"
+	},
+	"build": {
+		"appId": "com.example.yourapp",
+		"win": {
+			"target": "nsis",
+			"icon": "assets/icon.ico"
+		}
+	},
+	"devDependencies": {
+		"electron-reloader": "^1.2.3",
+		"chokidar": "^4.0.3",
+		"electron": "^28.3.3",
+		"electron-builder": "^24.13.3"
+	}
+}
