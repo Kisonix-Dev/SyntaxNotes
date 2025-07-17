@@ -15,9 +15,9 @@
 		}
 	},
 	"devDependencies": {
-		"electron-reloader": "^1.2.3",
 		"chokidar": "^4.0.3",
 		"electron": "^28.3.3",
-		"electron-builder": "^24.13.3"
+		"electron-builder": "^24.13.3",
+		"electron-reloader": "^1.2.3"
 	}
 }

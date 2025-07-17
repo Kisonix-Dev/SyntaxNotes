@@ -13,7 +13,13 @@
 	</head>
 	<body>
 		<!-- Explorer container -->
-	<div class="explorer-container">
+	<div class="explorer-container" id="ExplorerContainer">
+		<div class="explorer-header">
+			<h1 class="h1-explorer">Explorer</h1>
+        <button class="btn-create-folder" title="Create new folder">
+        <i class="fas fa-folder-plus"></i>
+        </button>
+		</div>
   <div class="folder" id="Folder">Documents
     <div class="folder-items">
       <div class="note-in-the-folder" id="NoteInTheFolder">Note1.txt</div>
@@ -24,6 +30,12 @@
 		<div class="all-notes-container" id="allNotes">
 			<div class="all-notes-header">
 				<h1>All Notes</h1>
+				<button class="btn-create-note" title="Create new note" id="BtnCreateNote">
+        <i class="fas fa-folder-plus"></i>
+        </button>
+				<button class="btn-delete-note" title="Delete note" id="BtnDeleteNote">
+        <i class="fas fa-folder-plus"></i>
+        </button>
 				<div class="search-wrapper">
 					<i class="fas fa-search search-icon"></i>
 					<input
@@ -50,8 +62,11 @@
         <h1 class="headline">Lorem ipsum dolor sit amet</h1>
 		</div>
     <div class="toolbar">
-        <button class="tool-button" title="Жирный текст">
+        <button class="tool-button" title="Bold text" id="ToolBold">
         <i class="fas fa-bold"></i>
+        </button>
+				<button class="tool-button" title="Italic text" id="ToolItalic">
+        <i class="fas fa-italic"></i>
         </button>
 				</div	>
 				<div class="content">
